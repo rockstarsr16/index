@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:  black;
+    
+}
+h1{
+    text-align:right;
+    padding-right: 70px;
+    padding-top: 150px;
+    font-size: 50px;
+    
+}
+#nav1{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+ul{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    padding-left: 63px;
+    padding-top: 20px;
+    font-family: "gillory";
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+ul::before{
+    content: "";
+    width: 0%;
+    height: 2%;
+    bottom: -1%;
+    transition: .5s;
+    background-color: black;
+    position: absolute;
+}
+ul:hover::before{
+    width: 40%;
+}
+h1{
+    color: white;
+    font-size: 90px;
+}
+video{
+    height: 90%;
+    width: 100%;
+    
+}
+#page2{
+    height: 130%;
+    width: 100%;
+    background-color: aquamarine;
+}
+#up{
+    height: 30%;
+    width: 100%;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 75px;
+    font-weight: 500%;
+    text-shadow: 3px 3px whitesmoke;
+    color: rgb(84, 83, 83);
+    
+}
+#mid{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://indusscrolls.com/wp-content/uploads/2022/01/2021-10-18_18-14-42.439-1024x576-1.jpeg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: left;
+}
+#mid h1{
+    color: white;
+    text-shadow: none;
+    text-align: right;
+    font-weight: 100;
+    font-size: 60px;
+    padding-top: 180px;
+}
+#dwn{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://media.karousell.com/media/photos/products/2022/9/27/airpods_pro_gen_2_brand_new_se_1664246218_7a36239b_progressive.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: right;
+}
+#dwn h1{
+    color: white;
+    text-shadow: none;
+    text-align: left;
+    font-weight: 100;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#dwn h5{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+#page3{
+    
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+     background-color:  white; 
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-image: url(https://img.merkandi.com/imgcache/resized/images/offer/2023/05/17/image-0954acd5-c054-4a81-afca-f685582eb512-1024x-1684338078-1684338102.jpg);
+   
+}
+#nav1{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    border-bottom: 2px solid black;
+}
+ul{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    padding-left: 63px;
+    padding-top: 20px;
+    font-family: "gillory";
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+i{
+    font-size: 20px;
+}
+ul::before{
+    content: "";
+    width: 0%;
+    height: 2%;
+    bottom: -1%;
+    transition: .5s;
+    background-color: black;
+    position: absolute;
+}
+ul:hover::before{
+    width: 40%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    background-image: url(https://images.unsplash.com/photo-1609334761848-77b4d1994040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    background-image: url(https://cdn.wallpapersafari.com/55/59/5YdTai.png);
+}

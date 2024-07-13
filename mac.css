@@ -1,0 +1,209 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    /* height: 150%; */
+    width: 100%;
+    background-color: burlywood;
+}
+#nav1{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+ul{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    padding-left: 63px;
+    padding-top: 20px;
+    font-family: "gillory";
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+ul::before{
+    content: "";
+    width: 0%;
+    height: 2%;
+    bottom: -1%;
+    transition: .5s;
+    background-color: black;
+    position: absolute;
+}
+ul:hover::before{
+    width: 40%;
+}
+#mac{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#lft{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+#rtg{
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/macbook-air/p/images/overview/macbook_air__d2234mv3oe0y_medium.jpg);
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
+}
+h6{
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+    padding-top: 90px;
+    padding-left:50px ;
+    padding-right: 50px;
+    font-size: 20px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(https://www.apple.com/v/macbook-air/p/images/overview/macbook_air_m1__dxctrdvvxm4i_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page2 h1{
+    color: white;
+    padding-top: 510px;
+    font-size: 80px;
+
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+}
+#mac1{
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    
+}
+#mac2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+#pic1{
+    height: 40%;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   background-image: url(https://i.pinimg.com/originals/a2/19/df/a219dfd23fedc5324684bf5c28ecec2e.jpg);
+}
+#pic2{
+    height: 40%;
+    width: 100%;
+    margin-top:20px ;
+    background-color: white;
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   background-image: url(https://venturebeat.com/wp-content/uploads/2016/05/MacBook-Kingmond-Young-_Q1A0595editSEND.jpg?resize=2100%2C1400&strip=all);
+}
+#page3 h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+#pic3{
+    height: 100%;
+    width: 40%;
+    background-color: burlywood;
+    background-image: url(https://www.apple.com/v/macbook-pro/ah/images/overview/business__ww84q61opmqy_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 100px;
+}    
+#pic4{
+    height: 100%;
+    width: 40%;
+    background-color: chocolate;
+    background-image: url(https://www.apple.com/v/macbook-pro/ah/images/overview/education__d82em19gb3ue_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#page4 h1{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+#page4 h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#page5{
+    height: 150%;
+    width: 100%;
+    background-color: brown;
+}
+#endt{
+    height: 60%;
+    width: 100%;
+    background-color: blueviolet;
+    border-bottom: 2px solid black ;
+    background-image:url(https://www.shopickr.com/wp-content/uploads/2015/07/apple-macbook-air-pro-imac-student-teacher-offers-back-to-college-school-education-2017-amazon-india-online-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#endd{
+    height: 50%;
+    width: 100%;
+    background-color: burlywood;
+    
+}
+#page5 h5{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}

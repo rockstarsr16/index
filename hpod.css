@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://www.cnet.com/a/img/resize/8cf3e565a6394690b120bb663b82c369c87b3c92/hub/2020/11/05/b20188d2-89c1-4ca0-963d-677cd08edc58/apple-homepod-mini-4.jpg?auto=webp&fit=crop&height=675&width=1200);
+}
+
+#nav1{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+ul{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    padding-left: 63px;
+    padding-top: 20px;
+    font-family: "gillory";
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+i{
+    font-size: 20px;
+}
+ul::before{
+    content: "";
+    width: 0%;
+    height: 2%;
+    bottom: -1%;
+    transition: .5s;
+    background-color: black;
+    position: absolute;
+}
+ul:hover::before{
+    width: 40%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2019/04/homepod-price-cut.jpg?quality=82&strip=all&w=1600);
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://www.apple.com/newsroom/images/product/homepod/standard/Apple-HomePod-ecosystem-230118_big.jpg.large.jpg);
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://techstory.in/wp-content/uploads/2023/02/dsfdfdfdfdf-768x402.png);
+}
